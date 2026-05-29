@@ -1,4 +1,4 @@
-package com.example.studyroom.chat
+package com.example.jetpackcompose.jetpackcompose.chat
 
 import android.content.Intent
 import android.net.Uri
@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
@@ -31,7 +32,7 @@ fun MediaViewerScreen(
                     model = uri,
                     contentDescription = null,
                     modifier = Modifier.fillMaxSize(),
-                    contentScale = androidx.compose.ui.layout.ContentScale.Fit
+                    contentScale = ContentScale.Fit
                 )
             }
             "VIDEO", "PDF" -> {

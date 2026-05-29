@@ -1,4 +1,4 @@
-package com.example.studyroom.chat
+package com.example.jetpackcompose.jetpackcompose.chat
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.*

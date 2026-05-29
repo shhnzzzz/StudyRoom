@@ -1,4 +1,4 @@
-package com.example.studyroom.chat
+package com.example.jetpackcompose.jetpackcompose.chat
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn

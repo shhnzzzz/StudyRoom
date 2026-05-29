@@ -1,4 +1,4 @@
-package com.example.studyroom.chat
+package com.example.jetpackcompose.jetpackcompose.chat
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -22,15 +22,10 @@ import androidx.compose.material.icons.automirrored.filled.Chat
 import androidx.compose.material.icons.automirrored.filled.*
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Block
-import androidx.compose.material.icons.filled.Chat
 import androidx.compose.material.icons.filled.GroupAdd
-import androidx.compose.material.icons.filled.MoreHoriz
-import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.NotificationsOff
 import androidx.compose.material.icons.filled.Report
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api

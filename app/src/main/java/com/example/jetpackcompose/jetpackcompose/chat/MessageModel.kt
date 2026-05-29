@@ -1,4 +1,4 @@
-package com.example.studyroom.chat
+package com.example.jetpackcompose.jetpackcompose.chat
 
 enum class MessageTag { NONE, DOUBT, RESOURCE, EXPLANATION }
 data class MessageModel(

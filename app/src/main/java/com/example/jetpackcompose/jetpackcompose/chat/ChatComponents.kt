@@ -1,4 +1,4 @@
-package com.example.studyroom.chat
+package com.example.jetpackcompose.jetpackcompose.chat
 
 import android.content.Intent
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -17,6 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.font.FontWeight
@@ -91,7 +92,7 @@ fun ChatBubble(
                                     .padding(top = if (message.tag != MessageTag.NONE)4.dp else 0.dp)
                                     .sizeIn(maxWidth = 250.dp, maxHeight = 300.dp)
                                     .clip(RoundedCornerShape(12.dp)),
-                                contentScale = androidx.compose.ui.layout.ContentScale.Crop
+                                contentScale = ContentScale.Crop
                             )
                         }
 

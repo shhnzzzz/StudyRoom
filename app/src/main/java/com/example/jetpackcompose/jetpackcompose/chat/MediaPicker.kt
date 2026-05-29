@@ -1,5 +1,4 @@
-
-package com.example.studyroom.chat
+package com.example.jetpackcompose.jetpackcompose.chat
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*

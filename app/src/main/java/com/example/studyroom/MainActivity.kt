@@ -3,7 +3,7 @@ package com.example.studyroom // Make sure this matches YOUR package name
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.example.studyroom.chat.ChatRoom
+import com.example.jetpackcompose.jetpackcompose.chat.ChatRoom
 import com.example.studyroom.ui.theme.StudyRoomTheme
 
 class MainActivity : ComponentActivity() {
