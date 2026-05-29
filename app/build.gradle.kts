@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.jetpackcompose"
+    namespace = "com.example.studyroom"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.jetpackcompose"
+        applicationId = "com.example.studyroom"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
@@ -56,5 +56,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
     implementation("androidx.compose.material:material-icons-extended")
-    implementation("androidx.navigation:navigation-compose:2.8.0")
+
+    implementation("io.coil-kt:coil-compose:2.6.0")
 }
